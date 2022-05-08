@@ -1,7 +1,4 @@
 require("@nomiclabs/hardhat-waffle");
-
-const fs = require("fs");
-const privateKey = fs.readFileSync(".secret").toString();
 const projectId = "d2054b7148734c33bbe8d7412cc0cfe3";
 
 module.exports = {
@@ -11,11 +8,10 @@ module.exports = {
     },
     palmTest: {
       url: `https://palm-testnet.infura.io/v3/${projectId}`,
-      accounts:[privateKey]
+      account:
     },
     Mainnet: {
-      url: `https://palm-mainnet.infura.io/v3/${projectId}`,
-      accounts:[privateKey]
+      url: `https://palm-mainnet.infura.io/v3/${projectId}`
     }
     
   },

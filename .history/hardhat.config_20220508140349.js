@@ -11,11 +11,11 @@ module.exports = {
     },
     palmTest: {
       url: `https://palm-testnet.infura.io/v3/${projectId}`,
-      accounts:[privateKey]
+      accounts:[]
     },
     Mainnet: {
       url: `https://palm-mainnet.infura.io/v3/${projectId}`,
-      accounts:[privateKey]
+      accounts:[]
     }
     
   },
