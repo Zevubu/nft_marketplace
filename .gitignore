@@ -37,6 +37,7 @@ coverage
 coverage.json
 typechain
 .secret
+.history
 
 #Hardhat files
 cache
